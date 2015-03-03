@@ -2,5 +2,5 @@ package com.Library
 
 class CourseController {
 
-    def scaffold = Course
+    def index() { }
 }
