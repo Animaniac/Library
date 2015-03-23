@@ -21,13 +21,13 @@ class StudentSpec extends Specification {
 
 
 	def student=new Student(name:'Rhys Aislabie',
-				email:'Rhys@gmail.com'
+				email:'Rhys@gmail.com',
 				studentId:'22007512',
 				course:'Web System Design')
 
 	then:"the toString method will merg them."
 	
-	Student.toString()=='Rhys Aislabie,Rhys@gmail.com,22007512,Web System Desgin'
+	Student.toString()=='Rhys Aislabie,Rhys@gmail.com,22007512,Web System Desgn'
 
     }
 }

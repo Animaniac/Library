@@ -6,8 +6,8 @@ class Book {
 	String author
 	String isbn
 	Date dateBorrowed
-	Date returnDate
-	String student
+	Date returnDate	
+
 
 	String toString(){
 
@@ -22,7 +22,6 @@ class Book {
 	isbn()
 	dateBorrowed()
 	returnDate()
-	student()
-
+	
     }
 }
