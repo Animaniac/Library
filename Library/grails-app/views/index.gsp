@@ -3,34 +3,59 @@
  <head>
  <meta name="layout" content="main"/>
  <title>The University Enrolment System</title>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
  </head>
 <body>
+<section id="content">
  <div id="welcome">
  <br />
- <h3>Welcome to The University Enrolment System</h3>
- <p>Lorem ipsum dolor sit amet, in eam appareat partiendo persequeris, in mollis aliquip mel. Cum sapientem assentior disputando ea, pri brute timeam et. Intellegam scribentur vim et, vidisse maiorum dolores at per. Prima deterruisset comprehensam nam ea, ex nam iusto aliquam.</p>
+<div class=""
+ <h3><strong>Welcome to The University Library System</strong></h3>
+</br>
+</br>
+ <p>This is the universities library system. From here you can control the world.</br></p></div>
  </div>
+
 <div class="homeCell">
- <h3>Add a Course</h3>
- <p>At eligendi neglegentur ullamcorper vim, et sit facer paulo aperiam. Duo iudico appetere no. Deleniti percipit ne per. Ius aliquip meliore facilisi te, sed hinc invidunt salutandi an, te eos erroribus torquatos. Te pro democritum inciderint. Usu ad audire numquam voluptatum, at detracto officiis concludaturque cum, sed ea vulputate constituam. </p>
- <span class="buttons" >
- <g:link controller="course" action="index">Add Course</g:link>
- </span>
- </div>
-<div class="homeCell">
- <h3>Add Lecturers</h3>
- <p>Cu nec lucilius salutatus, sint quidam feugait mea ea, verear suavitate eam no. Ad error utamur lobortis vix, elitr partem veritus sit ei. Eam audiam accusamus ne. Has dicant efficiendi et.</p>
- <span class="buttons" >
- <g:link controller="lecturer" action="create"> Add Lecturer</g:link>
- </span>
- </div>
-<div class="homeCell">
- <h3>About the Modules</h3> 
+ <h3>Add a Course</h3> 
  <p>Eum sanctus adolescens te, cu dicit sapientem intellegebat sit, pro id eripuit urbanitas expetendis. Ei mea vide brute etiam, eirmod legendos definitiones sed ne. Quod aperiam propriae cum et, porro augue euripidis te quo. Nec ad harum delectus. His dicant deleniti percipit no.</p>
  <span class="buttons" >
- <g:link controller="module" action="create">Add Module</g:link>
+ <g:link controller="course" action="create">Add a Course</g:link>
  </span>
  </div>
+
+<div class="homeCell">
+ <h3>Add a Student</h3> 
+ <p>Eum sanctus adolescens te, cu dicit sapientem intellegebat sit, pro id eripuit urbanitas expetendis. Ei mea vide brute etiam, eirmod legendos definitiones sed ne. Quod aperiam propriae cum et, porro augue euripidis te quo. Nec ad harum delectus. His dicant deleniti percipit no.</p>
+ <span class="buttons" >
+ <g:link controller="student" action="create">Add a Student</g:link>
+ </span>
+ </div>
+
+<div class="homeCell">
+ <h3>Add a Book</h3> 
+ <p>Eum sanctus adolescens te, cu dicit sapientem intellegebat sit, pro id eripuit urbanitas expetendis. Ei mea vide brute etiam, eirmod legendos definitiones sed ne. Quod aperiam propriae cum et, porro augue euripidis te quo. Nec ad harum delectus. His dicant deleniti percipit no.</p>
+ <span class="buttons" >
+ <g:link controller="book" action="create">Add a Book</g:link>
+ </span>
+ </div>
+
+<div class="homeCell">
+ <h3>Add a Library</h3> 
+ <p>Eum sanctus adolescens te, cu dicit sapientem intellegebat sit, pro id eripuit urbanitas expetendis. Ei mea vide brute etiam, eirmod legendos definitiones sed ne. Quod aperiam propriae cum et, porro augue euripidis te quo. Nec ad harum delectus. His dicant deleniti percipit no.</p>
+ <span class="buttons" >
+ <g:link controller="library" action="create">Add a Library</g:link>
+ </span>
+ </div>
+
+<div class="homeCell">
+ <h3>Add a Librarian</h3> 
+ <p>Eum sanctus adolescens te, cu dicit sapientem intellegebat sit, pro id eripuit urbanitas expetendis. Ei mea vide brute etiam, eirmod legendos definitiones sed ne. Quod aperiam propriae cum et, porro augue euripidis te quo. Nec ad harum delectus. His dicant deleniti percipit no.</p>
+ <span class="buttons" >
+ <g:link controller="librarian" action="create">Add a Librarian</g:link>
+ </span>
+ </div>
+</section>
  </body>
 </html>
 
